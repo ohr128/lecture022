@@ -11,5 +11,13 @@ public class HelloController {
 		return ("Hello World");
 
 	}
+	
+	
+	@GetMapping("hello2")
+	public String helloWorld2() {
+		return ("Hello2 Spring");
+
+	}
+
 
 }
